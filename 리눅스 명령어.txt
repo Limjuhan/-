@@ -1,0 +1,28 @@
+#pwd : 현재 디렉토리 위치
+
+#cd : 디렉토리 이동
+
+#ls : 파일 목록 출력
+-al
+
+#퍼미션 종류
+읽기(r) : 읽기 권한
+쓰기(w): 쓰기 권한
+실행(x): 실행 권한
+
+#cat : 파일 보기
+
+#rm : 파일 및 폴더 삭제
+
+#ls > files.txt 
+ : ls로 출력되는 표준 출력 스트림의 방향을 files.txt로 바꿔준다.
+
+#head < files.txt
+: files.txt의 앞 10라인이 출력됨
+
+#ls >> files.txt
+:기존files.txt파일끝에, ls출력 결과를 더해준다.
+
+#ls | grep files.txt
+: grep명령의 입력 스트림을 검색해서 보여줌
+
